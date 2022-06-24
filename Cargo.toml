@@ -1,0 +1,16 @@
+[package]
+name = "snmp"
+version = "0.1.0"
+authors = ["matthew"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes = "1"
+rand = "0.8.2"
+rasn = "0.2.2"
+
+[[bin]]
+name = "sget"
+path = "src/bin/main.rs"
